@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hide{
+    display: none;
+ 
+}
+.gamearea{
+    position: relative;
+    width: 400px;
+    height: 100vh;
+    background-color: rgb(38, 36, 36);
+    margin: auto;
+    border-left: 7px dashed rgb(184, 155, 102);
+    border-right: 7px dashed rgb(184, 155, 102);
+}
+.car{
+   background-image: url('race.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    width: 1.1cm;
+    height: 2cm;
+    position: absolute;
+   bottom: 120px;
+}
+.enemy{
+    background-image: url('blue.png');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    width: 1.1cm;
+    height: 2cm;
+    position: absolute;
+   bottom: 120px;
+}
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position:absolute;
+    margin-left: 195px;
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: rgb(10, 189, 209);
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    color: aliceblue;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px rgb(72, 56, 25);
+    padding-top: 1cm;
+    letter-spacing: 5;
+}
+.startscreen{
+    position: absolute;
+    top: 240px;
+    left: 510px;
+    background: rgba(43, 224, 26, 0.872);
+    width: 480px;
+    height: 90px;
+    text-align: center;
+    color: aliceblue;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px rgb(54, 53, 51);
+    padding-top: 1cm;
+    letter-spacing: 5;
+    z-index: 50;
+}
+.cargame{
+    background-image: url('space-game-background-neon-night-alien-landscape/1624.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
